@@ -1,0 +1,6 @@
+  services:
+- type: web
+  name: mygit
+  env: docker
+  plan: starter
+  disk: {mountPath: /data, sizeGb: 10}
